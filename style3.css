@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Home{
+
+    background-color: #ffd500;
+    border: 5px solid #ed1c24;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+
+}
+
+
+.Home img{
+
+    display: flex;
+    width: 90px;
+    justify-items: start;
+    align-items: flex-start;
+}
+
+
+.Pages a{
+    font-size: 20px;
+    padding: 40px;
+}
+
+
+.Name{
+
+    font-size: 350px;
+    color: #ed1c24;
+}
+
+.Content p{
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    
+}
+
+.Context p{
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    display: flex;
+}
+
+.vission p{
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    display: flex;
+}

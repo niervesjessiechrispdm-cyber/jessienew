@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="scroll-progress" id="scrollProgress"></div>
+    <!-- NAVBAR -->
+    <header class="navbar">
+      <div class="logo">My Portfolio</div>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section id="home" class="hero">
+      <div class="hero-text">
+        <h1>Hello Everyone</h1>
+        <p>Online Portfolio for BS Information Technology</p>
+        
+        <a href="#projects" class="btn">View My Projects</a>
+      </div>
+      <div class="hero-image" onclick="flipProfile()">
+        <p class="click-text">Click the Profile Picture</p>
+
+        <div class="profile-card" id="profileCard">
+          <!-- FRONT -->
+          <div class="profile-side profile-front">
+            <img src="Front.jpg" alt="Profile Picture" />
+          </div>
+
+          <!-- BACK -->
+          <div class="profile-side profile-back">
+            <img src="Back.jpg" alt="Profile Picture" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="about">
+      <h2>About Me</h2>
+
+      <p class="about-intro">
+        I am a third-year Bachelor of Science in Information Technology (BSIT) student at Pambayang Dalubhasaan ng Marilao with a passion for web development. I enjoy creating responsive and user-friendly websites using HTML, CSS, and JavaScript.
+      </p>
+
+      <div class="about-grid">
+        <div class="about-box">
+          <h3> Education</h3>
+          <p>
+            Currently pursuing a Bachelor of Science in Information Technology at Pambayang Dalubhasaan ng Marilao, focusing on enhancing my skills in web development, programming, networking, and other areas of information technology while continuously exploring new technologies and gaining practical experience.
+          </p>
+        </div>
+
+        <div class="about-box">
+          <h3> My Goal</h3>
+          <p>
+            My goal is to further develop my programming and web development skills, gain practical experience, and expand my knowledge of emerging technologies to become a skilled and competent IT professional in the future.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section id="skills" class="skills">
+      <h2>My Skills and Hobbies</h2>
+      <div class="skills-grid">
+        <div class="skill-box">EATING</div>
+        <div class="skill-box">SLEEPING</div>
+        <div class="skill-box">GAMING</div>
+        <div class="skill-box">UNDERSTANDING</div>
+      </div>
+    </section>
+
+    <!-- PROJECTS / ACTIVITIES SECTION -->
+    <section id="projects" class="activities">
+      <h2>My Projects</h2>
+
+      <!-- Midterm / Finals buttons -->
+      <div class="term-tabs">
+        <button class="term-btn" data-target="midterm">Midterm</button>
+        <button class="term-btn" data-target="finals">Finals</button>
+      </div>
+
+      <p class="term-hint" id="termHint">Choose to see the activities.</p>
+
+      <!-- MIDTERM -->
+      <div class="activities-grid term-panel" id="midterm">
+        <a
+          href="homepage.html"
+          target="_blank"
+          class="activity-card"
+        >
+          <img src="Act1.png" alt="Laboratory Activity 1" />
+          <div class="activity-info">
+            <h3>Laboratory Activity 1</h3>
+          </div>
+        </a>
+
+        <a
+          href="homepage2.html"
+          target="_blank"
+          class="activity-card"
+        >
+          <img src="Act2.png" alt="Laboratory Activity 2" />
+          <div class="activity-info">
+            <h3>Laboratory Activity 2</h3>
+          </div>
+        </a>
+
+        <a
+          href="homepage3.html"
+          target="_blank"
+          class="activity-card"
+        >
+          <img src="Act3.png" alt="Laboratory Activity 3" />
+          <div class="activity-info">
+            <h3>Laboratory Activity 3</h3>
+          </div>
+        </a>
+
+        <a
+          href="homepage4.html"
+          target="_blank"
+          class="activity-card"
+        >
+          <img src="Act4.png" alt="Laboratory Activity 4" />
+          <div class="activity-info">
+            <h3>Laboratory Activity 4</h3>
+          </div>
+        </a>
+      </div>
+
+      <!-- FINALS -->
+      <div class="activities-grid term-panel" id="finals">
+        <a
+          href="finalAct3.html"
+          target="_blank"
+          class="activity-card"
+        >
+          <img src="finalAct3.png" alt="Finals Laboratory Activity 2" />
+          <div class="activity-info">
+            <h3>Laboratory Activity 3</h3>
+          </div>
+        </a>
+
+        <a
+          href="finalAct4.html"
+          target="_blank"
+          class="activity-card"
+        >
+          <img src="finalAct4.png" alt="Finals Laboratory Activity 2" />
+          <div class="activity-info">
+            <h3>Laboratory Activity 4</h3>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="contact">
+      <h2>Contact Me</h2>
+      <p>Email: niervesjessiechris.pdm@gmail.com</p>
+      <p>Phone: 0976-630-5637</p>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <p>&copy; 2026 PDM Student | Student Portfolio</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
